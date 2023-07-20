@@ -1,0 +1,38 @@
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    color: #9041ff;
+    margin-top: 20px;
+}
+
+.heading-title h3 {
+    /* color: #9041ff; */
+    display: inline;
+    background: linear-gradient(to right, #2b92ff, #9041ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h4 {
+    background: linear-gradient(to right, #2b92ff, #9041ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 2px solid #9041ff;
+}
+
+.heading-title i {
+    /* color: #9041ff; */
+    font-size: 20px;
+    display: inline;
+    background: linear-gradient(to right, #2b92ff, #9041ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 5px;
+}
+
+
+.custom-row {
+    border-radius: 10px;
+}
