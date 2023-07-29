@@ -1,0 +1,98 @@
+.row .courses ul li {
+    display: inline;
+    background-color: aqua;
+    color: black;
+    padding: 0.5rem;
+    margin-right: 1rem;
+}
+
+.container-fluid {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    color: #9041ff;
+    margin-top: 20px;
+    border-bottom: 3px solid #9041ff;
+}
+
+.custom-row {
+    border-radius: 10px;
+}
+
+
+.box {
+    width: 280px;
+    height: 310px;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px;
+    background-color: #fff;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.067), 
+			0 10px 10px rgba(0, 0, 0, 0.067);
+}
+
+.box-img {
+    position: relative;
+    /* Enable relative positioning for the image */
+    height: 100%;
+    /* Allow the image to fill the box vertically */
+}
+
+.img-fluid {
+    width: 100%;
+    /* Set the image width to 100% of its container */
+    height: auto;
+    /* Allow the image to adjust its height automatically */
+    border-radius: 10px;
+}
+
+.corner-text {
+    /* position: absolute; */
+    /* Position the corner text absolutely */
+    /* top: 0; */
+    /* Align it to the top of the box */
+    /* left: 0; */
+    /* Align it to the left of the box */
+    color: white;
+    text-align: center;
+    background-color: #9041ff;
+    background: -webkit-linear-gradient(to right, #2b92ff, #9041ff);
+    background: linear-gradient(to right, #2b92ff, #9041ff);
+    /* Add a background color to the corner text */
+    padding:5px 10px;
+    /* Add some padding for better readability */
+    font-weight: 600;
+    font-size: 19px;
+    /* Optionally, apply bold font weight */
+    border-radius: 20px;
+}
+
+.start-watching {
+    text-align: center;
+    /* background-color: #f1f1f1; */
+    color: white;
+    background: #a869ff;
+    background: -webkit-linear-gradient(to right, #4da2fe, #a869ff);
+    background: linear-gradient(to right, #4da2fe, #a869ff);
+    /* Add a background color to the corner text */
+    padding:5px 10px;
+    /* Add some padding for better readability */
+    /* font-weight: bold; */
+    font-size: 19px;
+    font-weight: 600;
+    /* Optionally, apply bold font weight */
+    border-radius: 50px;
+    
+}
